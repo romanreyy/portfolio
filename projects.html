@@ -3,24 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Projects - Roman Rey Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="content">
+            <!-- Navbar -->
             <header>
                 <nav class="navbar">
-                <a href="index.html" class="logo">Portfolio</a>
-                <div class="nav-links">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="projects.html">Projects</a>
-                    <a href="contact.html">Contact</a>
-                </div>
+                    <a href="index.html" class="logo">Portfolio</a>
+                    <div class="nav-links">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="projects.html" class="active">Projects</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
                 </nav>
             </header>
+
+            <!-- Projects Section -->
+            <main>
+                <section class="projects-section">
+                    <div class="projects-header">
+                        <h1>My Projects</h1>
+                        <p>Some of the projects I've been working on and sharing on GitHub.</p>
+                    </div>
+
+                    <div class="projects-grid">
+                        <!-- PongGame -->
+                        <article class="project-card">
+                            <div class="project-header">
+                                <h2>PongGame</h2>
+                                <span class="project-tag">Java</span>
+                            </div>
+                            <p class="project-short">
+                                Juego Pong clásico hecho en Java, con movimiento suave y lógica simple de colisiones.
+                            </p>
+                            <div class="project-more">
+                                <p>
+                                    Este proyecto fue uno de mis primeros juegos en Java. Implementé detección de
+                                    colisiones, conteo de puntos y control de velocidad de la pelota. Me sirvió para
+                                    practicar estructuras básicas, bucles de juego y renderizado por fotogramas.
+                                </p>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/romanreyy/PongGame" target="_blank" class="project-link">
+                                    Ver en GitHub
+                                </a>
+                                <button class="project-toggle">Ver más</button>
+                            </div>
+                        </article>
+
+                        <!-- calculadora-Java -->
+                        <article class="project-card">
+                            <div class="project-header">
+                                <h2>calculadora-Java</h2>
+                                <span class="project-tag">Java</span>
+                            </div>
+                            <p class="project-short">
+                                Calculadora en Java con operaciones básicas, vectores, matrices y ecuaciones.
+                            </p>
+                            <div class="project-more">
+                                <p>
+                                    Este proyecto incluye un conjunto de funciones para resolver diferentes tipos de
+                                    problemas matemáticos: operaciones simples, manejo de vectores y matrices y algunas
+                                    ecuaciones. Me ayudó a practicar programación estructurada y manejo de arreglos.
+                                </p>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/romanreyy/calculadora-Java" target="_blank" class="project-link">
+                                    Ver en GitHub
+                                </a>
+                                <button class="project-toggle">Ver más</button>
+                            </div>
+                        </article>
+
+                        <!-- imc -->
+                        <article class="project-card">
+                            <div class="project-header">
+                                <h2>imc</h2>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                            <p class="project-short">
+                                Página web para calcular el índice de masa corporal (IMC) con HTML, CSS y JS.
+                            </p>
+                            <div class="project-more">
+                                <p>
+                                    Desarrollé una interfaz sencilla donde el usuario ingresa su peso y altura y la web
+                                    calcula automáticamente el IMC. Practiqué interacción con formularios, manejo del
+                                    DOM y estilos responsivos básicos.
+                                </p>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/romanreyy/imc" target="_blank" class="project-link">
+                                    Ver en GitHub
+                                </a>
+                                <button class="project-toggle">Ver más</button>
+                            </div>
+                        </article>
+
+                        <!-- SuperVildozoBros -->
+                        <article class="project-card">
+                            <div class="project-header">
+                                <h2>SuperVildozoBros</h2>
+                                <span class="project-tag">Java</span>
+                            </div>
+                            <p class="project-short">
+                                Juego de plataformas inspirado en Super Mario Bros, hecho para Laboratorio de POO.
+                            </p>
+                            <div class="project-more">
+                                <p>
+                                    Implementé personajes, enemigos, físicas básicas de saltos y colisiones, además de
+                                    diferentes niveles. El objetivo fue aplicar conceptos de Programación Orientada a
+                                    Objetos como herencia, polimorfismo y composición dentro de un juego 2D.
+                                </p>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/romanreyy/SuperVildozoBros" target="_blank" class="project-link">
+                                    Ver en GitHub
+                                </a>
+                                <button class="project-toggle">Ver más</button>
+                            </div>
+                        </article>
+
+                        <!-- Plan-Maestro -->
+                        <article class="project-card">
+                            <div class="project-header">
+                                <h2>Plan-Maestro</h2>
+                                <span class="project-tag">Java · LibGDX</span>
+                            </div>
+                            <p class="project-short">
+                                Juego de estrategia por turnos inspirado en T.E.G., desarrollado con LibGDX.
+                            </p>
+                            <div class="project-more">
+                                <p>
+                                    Proyecto grande de juego de estrategia con mapa de países, turnos, objetivos y
+                                    personajes con habilidades especiales. Utiliza Java SE 17, LibGDX y una arquitectura
+                                    pensada para integrar juego en red con servidor y cliente. Es uno de mis proyectos
+                                    principales y sigue en desarrollo.
+                                </p>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/romanreyy/Plan-Maestro" target="_blank" class="project-link">
+                                    Ver en GitHub
+                                </a>
+                                <button class="project-toggle">Ver más</button>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </main>
         </div>
     </div>
+
+    <script>
+        document.querySelectorAll('.project-toggle').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                const card = btn.closest('.project-card');
+                const expanded = card.classList.toggle('expanded');
+                btn.textContent = expanded ? 'Ver menos' : 'Ver más';
+            });
+        });
+    </script>
 </body>
 </html>
